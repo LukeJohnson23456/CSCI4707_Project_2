@@ -1,0 +1,9 @@
+CREATE TABLE MANAGE_INVENTORY (
+    E_ID            INT             NOT NULL,
+    I_ID            INT             NOT NULL,
+    B_ID            INT             NOT NULL,
+    FOREIGN KEY (E_ID) REFERENCES EMPLOYEE(Employee_ID),
+    FOREIGN KEY (I_ID) REFERENCES INVENTORY(I_ID),
+    FOREIGN KEY (B_ID) REFERENCES BOOK(BookID),
+    PRIMARY KEY(E_ID, I_ID, B_ID)
+);
