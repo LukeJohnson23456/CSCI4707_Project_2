@@ -1,7 +1,7 @@
 CREATE TABLE BOOK (
 
     BookID          INT             NOT NULL,
-    Genre           VARCHAR(10),
+    Genre           VARCHAR(20),
     Title           VARCHAR(50)     NOT NULL,
     pubYear         INT,
     Price           DECIMAL(4,2)    NOT NULL,
