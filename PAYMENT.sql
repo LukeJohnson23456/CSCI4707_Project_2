@@ -1,5 +1,4 @@
 CREATE TABLE PAYMENT (
-
     Payment_ID      INT             NOT NULL,
     Payment_Date    DATE            NOT NULL,
     Method          VARCHAR(10)     NOT NULL,
