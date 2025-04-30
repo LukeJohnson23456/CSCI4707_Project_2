@@ -1,5 +1,4 @@
 CREATE TABLE CUSTOMER (
-
     Customer_ID     INT             NOT NULL,
     First_name      VARCHAR(15),
     Last_name       VARCHAR(15),
